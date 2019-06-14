@@ -60,7 +60,9 @@ class Owner
     @@all
   end
   
-  
+  def self.count
+    @@all.count
+  end 
   
   
   
