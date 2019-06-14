@@ -3,7 +3,6 @@ class Owner
   attr_reader :species 
   
   @@all = []
-  @@owners = []
   
   def initialize(species)
     @species = species
@@ -65,6 +64,10 @@ class Owner
     @@all.count
   end 
   
+  
+  def self.reset_all
+    @@owners.clear
+  end
   
   
 end
