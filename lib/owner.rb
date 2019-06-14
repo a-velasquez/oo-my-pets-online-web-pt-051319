@@ -56,7 +56,4 @@ class Owner
     p "I have #{@pets[:fish].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cat(s)."
   end
   
-  
-  
-  
 end
