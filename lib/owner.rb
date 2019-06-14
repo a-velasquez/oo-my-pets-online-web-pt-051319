@@ -67,7 +67,7 @@ class Owner
   
   
   def self.reset_all
-    @@owners.clear
+    @@all.clear
   end
   
   
