@@ -7,7 +7,6 @@ class Owner
   def initialize(species)
     @species = species
     @pets = {:fishes => [], :dogs => [], :cats => []}
-                #type=>pets
   end 
   
   def buy_fish(fish)
